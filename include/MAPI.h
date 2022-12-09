@@ -12,6 +12,10 @@
  *    which is supported under Windows by Microsoft Outlook
  */
 
+// gcc does not support microsoft sal
+#define __in
+#define __out
+#define __deref_out_ecount_full(p)
 
 #ifndef MAPI_H
 #define MAPI_H

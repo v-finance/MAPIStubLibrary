@@ -1,0 +1,469 @@
+The target system is: Windows -  - x86
+The host system is: Linux - 5.4.17-2136.307.3.1.el8uek.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /vortex/mingw-2022/usr/bin/i686-w64-mingw32-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "/home/erikj/workspaces/MAPIStubLibrary/CMakeFiles/3.21.2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /vortex/mingw-2022/usr/bin/i686-w64-mingw32-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "/home/erikj/workspaces/MAPIStubLibrary/CMakeFiles/3.21.2/CompilerIdCXX/a.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/erikj/workspaces/MAPIStubLibrary/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_edf1d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_edf1d.dir/build.make CMakeFiles/cmTC_edf1d.dir/build
+gmake[1]: Entering directory '/home/erikj/workspaces/MAPIStubLibrary/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_edf1d.dir/CMakeCCompilerABI.c.obj
+/vortex/mingw-2022/usr/bin/i686-w64-mingw32-gcc   -v -o CMakeFiles/cmTC_edf1d.dir/CMakeCCompilerABI.c.obj -c /vortex/x86_64-redhat-linux/devel/share/cmake-3.21/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/vortex/mingw-2022/usr/bin/i686-w64-mingw32-gcc
+Target: i686-w64-mingw32
+Configured with: ../configure --prefix=/vortex/mingw-2022/usr --bindir=/vortex/mingw-2022/usr/bin --includedir=/vortex/mingw-2022/usr/include --mandir=/vortex/mingw-2022/usr/share/man --infodir=/vortex/mingw-2022/usr/share/info --datadir=/vortex/mingw-2022/usr/share --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --with-gnu-as --with-gnu-ld --verbose --without-newlib --disable-multilib --disable-plugin --with-system-zlib --disable-nls --without-included-gettext --disable-win32-registry --enable-languages=c,c++ --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-threads=posix --with-isl --enable-libgomp --target=i686-w64-mingw32 --with-sysroot=/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root --with-gxx-include-dir=/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++ --disable-sjlj-exceptions --with-dwarf2
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.0.1 20220308 (Fedora MinGW 12.0.1-6.3) (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_edf1d.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_edf1d.dir/'
+ /vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/cc1 -quiet -v -D_REENTRANT /vortex/x86_64-redhat-linux/devel/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_edf1d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=pentiumpro -version -o /tmp/ccPAljKh.s
+GNU C17 (GCC) version 12.0.1 20220308 (Fedora MinGW 12.0.1-6.3) (i686-w64-mingw32)
+	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-4), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/usr/local/include"
+ignoring nonexistent directory "/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/include
+ /vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/include-fixed
+ /vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include
+End of search list.
+GNU C17 (GCC) version 12.0.1 20220308 (Fedora MinGW 12.0.1-6.3) (i686-w64-mingw32)
+	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-4), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: ea670517f9059766211a69ac571e910d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_edf1d.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_edf1d.dir/'
+ /vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/bin/as -v -o CMakeFiles/cmTC_edf1d.dir/CMakeCCompilerABI.c.obj /tmp/ccPAljKh.s
+GNU assembler version 2.38 (i686-w64-mingw32) using BFD version version 2.38-1.2
+COMPILER_PATH=/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/../lib/:/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/:/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_edf1d.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_edf1d.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_edf1d.exe
+/vortex/x86_64-redhat-linux/devel/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edf1d.dir/link.txt --verbose=1
+/vortex/x86_64-redhat-linux/devel/bin/cmake -E rm -f CMakeFiles/cmTC_edf1d.dir/objects.a
+/vortex/mingw-2022/usr/bin/i686-w64-mingw32-ar qc CMakeFiles/cmTC_edf1d.dir/objects.a @CMakeFiles/cmTC_edf1d.dir/objects1.rsp
+/vortex/mingw-2022/usr/bin/i686-w64-mingw32-gcc  -v -Wl,--whole-archive CMakeFiles/cmTC_edf1d.dir/objects.a -Wl,--no-whole-archive -o cmTC_edf1d.exe -Wl,--out-implib,libcmTC_edf1d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=/vortex/mingw-2022/usr/bin/i686-w64-mingw32-gcc
+COLLECT_LTO_WRAPPER=/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/lto-wrapper
+Target: i686-w64-mingw32
+Configured with: ../configure --prefix=/vortex/mingw-2022/usr --bindir=/vortex/mingw-2022/usr/bin --includedir=/vortex/mingw-2022/usr/include --mandir=/vortex/mingw-2022/usr/share/man --infodir=/vortex/mingw-2022/usr/share/info --datadir=/vortex/mingw-2022/usr/share --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --with-gnu-as --with-gnu-ld --verbose --without-newlib --disable-multilib --disable-plugin --with-system-zlib --disable-nls --without-included-gettext --disable-win32-registry --enable-languages=c,c++ --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-threads=posix --with-isl --enable-libgomp --target=i686-w64-mingw32 --with-sysroot=/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root --with-gxx-include-dir=/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++ --disable-sjlj-exceptions --with-dwarf2
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.0.1 20220308 (Fedora MinGW 12.0.1-6.3) (GCC) 
+COMPILER_PATH=/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/../lib/:/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/:/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_edf1d.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_edf1d.'
+ /vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/collect2 -plugin /vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/liblto_plugin.so -plugin-opt=/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccW5iJzO.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root -m i386pe -Bdynamic -o cmTC_edf1d.exe /vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib/crt2.o /vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/crtbegin.o -L/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1 -L/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/../lib -L/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib -L/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib -L/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib --whole-archive CMakeFiles/cmTC_edf1d.dir/objects.a --no-whole-archive --out-implib libcmTC_edf1d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 /vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_edf1d.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_edf1d.'
+gmake[1]: Leaving directory '/home/erikj/workspaces/MAPIStubLibrary/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/include]
+    add: [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/include-fixed]
+    add: [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include]
+  end of search list found
+  collapse include dir [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/include] ==> [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/include]
+  collapse include dir [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/include-fixed] ==> [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/include-fixed]
+  collapse include dir [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include] ==> [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include]
+  implicit include dirs: [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/include;/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/include-fixed;/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(i686-w64-mingw32-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/erikj/workspaces/MAPIStubLibrary/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_edf1d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_edf1d.dir/build.make CMakeFiles/cmTC_edf1d.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/erikj/workspaces/MAPIStubLibrary/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_edf1d.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/vortex/mingw-2022/usr/bin/i686-w64-mingw32-gcc   -v -o CMakeFiles/cmTC_edf1d.dir/CMakeCCompilerABI.c.obj -c /vortex/x86_64-redhat-linux/devel/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/vortex/mingw-2022/usr/bin/i686-w64-mingw32-gcc]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../configure --prefix=/vortex/mingw-2022/usr --bindir=/vortex/mingw-2022/usr/bin --includedir=/vortex/mingw-2022/usr/include --mandir=/vortex/mingw-2022/usr/share/man --infodir=/vortex/mingw-2022/usr/share/info --datadir=/vortex/mingw-2022/usr/share --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --with-gnu-as --with-gnu-ld --verbose --without-newlib --disable-multilib --disable-plugin --with-system-zlib --disable-nls --without-included-gettext --disable-win32-registry --enable-languages=c,c++ --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-threads=posix --with-isl --enable-libgomp --target=i686-w64-mingw32 --with-sysroot=/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root --with-gxx-include-dir=/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++ --disable-sjlj-exceptions --with-dwarf2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.0.1 20220308 (Fedora MinGW 12.0.1-6.3) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_edf1d.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_edf1d.dir/']
+  ignore line: [ /vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/cc1 -quiet -v -D_REENTRANT /vortex/x86_64-redhat-linux/devel/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_edf1d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=pentiumpro -version -o /tmp/ccPAljKh.s]
+  ignore line: [GNU C17 (GCC) version 12.0.1 20220308 (Fedora MinGW 12.0.1-6.3) (i686-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-4)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.16.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/include]
+  ignore line: [ /vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/include-fixed]
+  ignore line: [ /vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 12.0.1 20220308 (Fedora MinGW 12.0.1-6.3) (i686-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-4)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.16.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: ea670517f9059766211a69ac571e910d]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_edf1d.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_edf1d.dir/']
+  ignore line: [ /vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/bin/as -v -o CMakeFiles/cmTC_edf1d.dir/CMakeCCompilerABI.c.obj /tmp/ccPAljKh.s]
+  ignore line: [GNU assembler version 2.38 (i686-w64-mingw32) using BFD version version 2.38-1.2]
+  ignore line: [COMPILER_PATH=/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/../lib/:/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/:/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_edf1d.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_edf1d.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_edf1d.exe]
+  ignore line: [/vortex/x86_64-redhat-linux/devel/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edf1d.dir/link.txt --verbose=1]
+  ignore line: [/vortex/x86_64-redhat-linux/devel/bin/cmake -E rm -f CMakeFiles/cmTC_edf1d.dir/objects.a]
+  ignore line: [/vortex/mingw-2022/usr/bin/i686-w64-mingw32-ar qc CMakeFiles/cmTC_edf1d.dir/objects.a @CMakeFiles/cmTC_edf1d.dir/objects1.rsp]
+  ignore line: [/vortex/mingw-2022/usr/bin/i686-w64-mingw32-gcc  -v -Wl --whole-archive CMakeFiles/cmTC_edf1d.dir/objects.a -Wl --no-whole-archive -o cmTC_edf1d.exe -Wl --out-implib libcmTC_edf1d.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/vortex/mingw-2022/usr/bin/i686-w64-mingw32-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/lto-wrapper]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../configure --prefix=/vortex/mingw-2022/usr --bindir=/vortex/mingw-2022/usr/bin --includedir=/vortex/mingw-2022/usr/include --mandir=/vortex/mingw-2022/usr/share/man --infodir=/vortex/mingw-2022/usr/share/info --datadir=/vortex/mingw-2022/usr/share --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --with-gnu-as --with-gnu-ld --verbose --without-newlib --disable-multilib --disable-plugin --with-system-zlib --disable-nls --without-included-gettext --disable-win32-registry --enable-languages=c,c++ --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-threads=posix --with-isl --enable-libgomp --target=i686-w64-mingw32 --with-sysroot=/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root --with-gxx-include-dir=/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++ --disable-sjlj-exceptions --with-dwarf2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.0.1 20220308 (Fedora MinGW 12.0.1-6.3) (GCC) ]
+  ignore line: [COMPILER_PATH=/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/../lib/:/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/:/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_edf1d.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_edf1d.']
+  link line: [ /vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/collect2 -plugin /vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/liblto_plugin.so -plugin-opt=/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccW5iJzO.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root -m i386pe -Bdynamic -o cmTC_edf1d.exe /vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib/crt2.o /vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/crtbegin.o -L/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1 -L/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/../lib -L/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib -L/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib -L/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib --whole-archive CMakeFiles/cmTC_edf1d.dir/objects.a --no-whole-archive --out-implib libcmTC_edf1d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 /vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/crtend.o]
+    arg [/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccW5iJzO.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [--sysroot=/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pe] ==> ignore
+    arg [-Bdynamic] ==> search dynamic
+    arg [-o] ==> ignore
+    arg [cmTC_edf1d.exe] ==> ignore
+    arg [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib/crt2.o] ==> obj [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib/crt2.o]
+    arg [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/crtbegin.o] ==> obj [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/crtbegin.o]
+    arg [-L/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1] ==> dir [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1]
+    arg [-L/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/../lib] ==> dir [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/../lib]
+    arg [-L/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib] ==> dir [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib]
+    arg [-L/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib] ==> dir [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib]
+    arg [-L/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib] ==> dir [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles/cmTC_edf1d.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_edf1d.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/crtend.o] ==> obj [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/crtend.o]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  collapse obj [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib/crt2.o] ==> [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/crt2.o]
+  collapse library dir [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1] ==> [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1]
+  collapse library dir [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/../lib] ==> [/vortex/mingw-2022/usr/i686-w64-mingw32/lib]
+  collapse library dir [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib] ==> [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib]
+  collapse library dir [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib] ==> [/vortex/mingw-2022/usr/i686-w64-mingw32/lib]
+  collapse library dir [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib] ==> [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+  implicit objs: [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/crt2.o;/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/crtbegin.o;/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/crtend.o]
+  implicit dirs: [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1;/vortex/mingw-2022/usr/i686-w64-mingw32/lib;/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/erikj/workspaces/MAPIStubLibrary/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dcf2f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dcf2f.dir/build.make CMakeFiles/cmTC_dcf2f.dir/build
+gmake[1]: Entering directory '/home/erikj/workspaces/MAPIStubLibrary/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dcf2f.dir/CMakeCXXCompilerABI.cpp.obj
+/vortex/mingw-2022/usr/bin/i686-w64-mingw32-g++   -v -o CMakeFiles/cmTC_dcf2f.dir/CMakeCXXCompilerABI.cpp.obj -c /vortex/x86_64-redhat-linux/devel/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/vortex/mingw-2022/usr/bin/i686-w64-mingw32-g++
+Target: i686-w64-mingw32
+Configured with: ../configure --prefix=/vortex/mingw-2022/usr --bindir=/vortex/mingw-2022/usr/bin --includedir=/vortex/mingw-2022/usr/include --mandir=/vortex/mingw-2022/usr/share/man --infodir=/vortex/mingw-2022/usr/share/info --datadir=/vortex/mingw-2022/usr/share --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --with-gnu-as --with-gnu-ld --verbose --without-newlib --disable-multilib --disable-plugin --with-system-zlib --disable-nls --without-included-gettext --disable-win32-registry --enable-languages=c,c++ --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-threads=posix --with-isl --enable-libgomp --target=i686-w64-mingw32 --with-sysroot=/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root --with-gxx-include-dir=/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++ --disable-sjlj-exceptions --with-dwarf2
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.0.1 20220308 (Fedora MinGW 12.0.1-6.3) (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dcf2f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_dcf2f.dir/'
+ /vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/cc1plus -quiet -v -D_REENTRANT /vortex/x86_64-redhat-linux/devel/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_dcf2f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=pentiumpro -version -o /tmp/ccLfPYpt.s
+GNU C++17 (GCC) version 12.0.1 20220308 (Fedora MinGW 12.0.1-6.3) (i686-w64-mingw32)
+	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-4), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/usr/local/include"
+ignoring nonexistent directory "/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++
+ /vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++/i686-w64-mingw32
+ /vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++/backward
+ /vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/include
+ /vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/include-fixed
+ /vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include
+End of search list.
+GNU C++17 (GCC) version 12.0.1 20220308 (Fedora MinGW 12.0.1-6.3) (i686-w64-mingw32)
+	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-4), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: c68060cd7bab159b648aee2aba632788
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dcf2f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_dcf2f.dir/'
+ /vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/bin/as -v -o CMakeFiles/cmTC_dcf2f.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccLfPYpt.s
+GNU assembler version 2.38 (i686-w64-mingw32) using BFD version version 2.38-1.2
+COMPILER_PATH=/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/../lib/:/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/:/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dcf2f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_dcf2f.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_dcf2f.exe
+/vortex/x86_64-redhat-linux/devel/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcf2f.dir/link.txt --verbose=1
+/vortex/x86_64-redhat-linux/devel/bin/cmake -E rm -f CMakeFiles/cmTC_dcf2f.dir/objects.a
+/vortex/mingw-2022/usr/bin/i686-w64-mingw32-ar qc CMakeFiles/cmTC_dcf2f.dir/objects.a @CMakeFiles/cmTC_dcf2f.dir/objects1.rsp
+/vortex/mingw-2022/usr/bin/i686-w64-mingw32-g++  -v -Wl,--whole-archive CMakeFiles/cmTC_dcf2f.dir/objects.a -Wl,--no-whole-archive -o cmTC_dcf2f.exe -Wl,--out-implib,libcmTC_dcf2f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=/vortex/mingw-2022/usr/bin/i686-w64-mingw32-g++
+COLLECT_LTO_WRAPPER=/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/lto-wrapper
+Target: i686-w64-mingw32
+Configured with: ../configure --prefix=/vortex/mingw-2022/usr --bindir=/vortex/mingw-2022/usr/bin --includedir=/vortex/mingw-2022/usr/include --mandir=/vortex/mingw-2022/usr/share/man --infodir=/vortex/mingw-2022/usr/share/info --datadir=/vortex/mingw-2022/usr/share --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --with-gnu-as --with-gnu-ld --verbose --without-newlib --disable-multilib --disable-plugin --with-system-zlib --disable-nls --without-included-gettext --disable-win32-registry --enable-languages=c,c++ --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-threads=posix --with-isl --enable-libgomp --target=i686-w64-mingw32 --with-sysroot=/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root --with-gxx-include-dir=/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++ --disable-sjlj-exceptions --with-dwarf2
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.0.1 20220308 (Fedora MinGW 12.0.1-6.3) (GCC) 
+COMPILER_PATH=/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/../lib/:/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/:/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dcf2f.exe' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_dcf2f.'
+ /vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/collect2 -plugin /vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/liblto_plugin.so -plugin-opt=/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyCrWk0.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_dcf2f.exe /vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib/crt2.o /vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/crtbegin.o -L/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1 -L/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/../lib -L/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib -L/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib -L/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib --whole-archive CMakeFiles/cmTC_dcf2f.dir/objects.a --no-whole-archive --out-implib libcmTC_dcf2f.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 /vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dcf2f.exe' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_dcf2f.'
+gmake[1]: Leaving directory '/home/erikj/workspaces/MAPIStubLibrary/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++]
+    add: [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++/i686-w64-mingw32]
+    add: [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++/backward]
+    add: [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/include]
+    add: [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/include-fixed]
+    add: [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include]
+  end of search list found
+  collapse include dir [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++] ==> [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++]
+  collapse include dir [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++/i686-w64-mingw32] ==> [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++/i686-w64-mingw32]
+  collapse include dir [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++/backward] ==> [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++/backward]
+  collapse include dir [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/include] ==> [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/include]
+  collapse include dir [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/include-fixed] ==> [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/include-fixed]
+  collapse include dir [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include] ==> [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include]
+  implicit include dirs: [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++;/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++/i686-w64-mingw32;/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++/backward;/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/include;/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/include-fixed;/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(i686-w64-mingw32-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/erikj/workspaces/MAPIStubLibrary/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dcf2f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dcf2f.dir/build.make CMakeFiles/cmTC_dcf2f.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/erikj/workspaces/MAPIStubLibrary/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_dcf2f.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/vortex/mingw-2022/usr/bin/i686-w64-mingw32-g++   -v -o CMakeFiles/cmTC_dcf2f.dir/CMakeCXXCompilerABI.cpp.obj -c /vortex/x86_64-redhat-linux/devel/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/vortex/mingw-2022/usr/bin/i686-w64-mingw32-g++]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../configure --prefix=/vortex/mingw-2022/usr --bindir=/vortex/mingw-2022/usr/bin --includedir=/vortex/mingw-2022/usr/include --mandir=/vortex/mingw-2022/usr/share/man --infodir=/vortex/mingw-2022/usr/share/info --datadir=/vortex/mingw-2022/usr/share --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --with-gnu-as --with-gnu-ld --verbose --without-newlib --disable-multilib --disable-plugin --with-system-zlib --disable-nls --without-included-gettext --disable-win32-registry --enable-languages=c,c++ --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-threads=posix --with-isl --enable-libgomp --target=i686-w64-mingw32 --with-sysroot=/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root --with-gxx-include-dir=/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++ --disable-sjlj-exceptions --with-dwarf2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.0.1 20220308 (Fedora MinGW 12.0.1-6.3) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dcf2f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_dcf2f.dir/']
+  ignore line: [ /vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/cc1plus -quiet -v -D_REENTRANT /vortex/x86_64-redhat-linux/devel/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_dcf2f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=pentiumpro -version -o /tmp/ccLfPYpt.s]
+  ignore line: [GNU C++17 (GCC) version 12.0.1 20220308 (Fedora MinGW 12.0.1-6.3) (i686-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-4)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.16.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++]
+  ignore line: [ /vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++/i686-w64-mingw32]
+  ignore line: [ /vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++/backward]
+  ignore line: [ /vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/include]
+  ignore line: [ /vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/include-fixed]
+  ignore line: [ /vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 12.0.1 20220308 (Fedora MinGW 12.0.1-6.3) (i686-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-4)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.16.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: c68060cd7bab159b648aee2aba632788]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dcf2f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_dcf2f.dir/']
+  ignore line: [ /vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/bin/as -v -o CMakeFiles/cmTC_dcf2f.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccLfPYpt.s]
+  ignore line: [GNU assembler version 2.38 (i686-w64-mingw32) using BFD version version 2.38-1.2]
+  ignore line: [COMPILER_PATH=/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/../lib/:/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/:/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dcf2f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_dcf2f.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_dcf2f.exe]
+  ignore line: [/vortex/x86_64-redhat-linux/devel/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcf2f.dir/link.txt --verbose=1]
+  ignore line: [/vortex/x86_64-redhat-linux/devel/bin/cmake -E rm -f CMakeFiles/cmTC_dcf2f.dir/objects.a]
+  ignore line: [/vortex/mingw-2022/usr/bin/i686-w64-mingw32-ar qc CMakeFiles/cmTC_dcf2f.dir/objects.a @CMakeFiles/cmTC_dcf2f.dir/objects1.rsp]
+  ignore line: [/vortex/mingw-2022/usr/bin/i686-w64-mingw32-g++  -v -Wl --whole-archive CMakeFiles/cmTC_dcf2f.dir/objects.a -Wl --no-whole-archive -o cmTC_dcf2f.exe -Wl --out-implib libcmTC_dcf2f.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/vortex/mingw-2022/usr/bin/i686-w64-mingw32-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/lto-wrapper]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../configure --prefix=/vortex/mingw-2022/usr --bindir=/vortex/mingw-2022/usr/bin --includedir=/vortex/mingw-2022/usr/include --mandir=/vortex/mingw-2022/usr/share/man --infodir=/vortex/mingw-2022/usr/share/info --datadir=/vortex/mingw-2022/usr/share --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --with-gnu-as --with-gnu-ld --verbose --without-newlib --disable-multilib --disable-plugin --with-system-zlib --disable-nls --without-included-gettext --disable-win32-registry --enable-languages=c,c++ --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-threads=posix --with-isl --enable-libgomp --target=i686-w64-mingw32 --with-sysroot=/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root --with-gxx-include-dir=/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/include/c++ --disable-sjlj-exceptions --with-dwarf2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.0.1 20220308 (Fedora MinGW 12.0.1-6.3) (GCC) ]
+  ignore line: [COMPILER_PATH=/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/../lib/:/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib/:/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/:/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dcf2f.exe' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_dcf2f.']
+  link line: [ /vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/collect2 -plugin /vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/liblto_plugin.so -plugin-opt=/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyCrWk0.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_dcf2f.exe /vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib/crt2.o /vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/crtbegin.o -L/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1 -L/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/../lib -L/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib -L/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib -L/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib --whole-archive CMakeFiles/cmTC_dcf2f.dir/objects.a --no-whole-archive --out-implib libcmTC_dcf2f.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 /vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/crtend.o]
+    arg [/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/vortex/mingw-2022/usr/libexec/gcc/i686-w64-mingw32/12.0.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccyCrWk0.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [--sysroot=/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pe] ==> ignore
+    arg [-Bdynamic] ==> search dynamic
+    arg [-u] ==> ignore
+    arg [___register_frame_info] ==> ignore
+    arg [-u] ==> ignore
+    arg [___deregister_frame_info] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_dcf2f.exe] ==> ignore
+    arg [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib/crt2.o] ==> obj [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib/crt2.o]
+    arg [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/crtbegin.o] ==> obj [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/crtbegin.o]
+    arg [-L/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1] ==> dir [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1]
+    arg [-L/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/../lib] ==> dir [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/../lib]
+    arg [-L/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib] ==> dir [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib]
+    arg [-L/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib] ==> dir [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib]
+    arg [-L/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib] ==> dir [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles/cmTC_dcf2f.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_dcf2f.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/crtend.o] ==> obj [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/crtend.o]
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse obj [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib/crt2.o] ==> [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/crt2.o]
+  collapse library dir [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1] ==> [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1]
+  collapse library dir [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib/../lib] ==> [/vortex/mingw-2022/usr/i686-w64-mingw32/lib]
+  collapse library dir [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib] ==> [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib]
+  collapse library dir [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/../../../../i686-w64-mingw32/lib] ==> [/vortex/mingw-2022/usr/i686-w64-mingw32/lib]
+  collapse library dir [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib] ==> [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib]
+  implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex;kernel32]
+  implicit objs: [/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib/crt2.o;/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/crtbegin.o;/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1/crtend.o]
+  implicit dirs: [/vortex/mingw-2022/usr/lib/gcc/i686-w64-mingw32/12.0.1;/vortex/mingw-2022/usr/i686-w64-mingw32/lib;/vortex/mingw-2022/usr/i686-w64-mingw32/sys-root/mingw/lib]
+  implicit fwks: []
+
+

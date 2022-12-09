@@ -1,0 +1,3 @@
+/home/erikj/workspaces/MAPIStubLibrary/CMakeFiles/rebuild_cache.dir
+/home/erikj/workspaces/MAPIStubLibrary/CMakeFiles/MAPIStub.dir
+/home/erikj/workspaces/MAPIStubLibrary/CMakeFiles/edit_cache.dir
