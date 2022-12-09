@@ -1,3 +1,0 @@
-/vortex/x86_64-redhat-linux/devel/bin/cmake -E rm -f CMakeFiles/MAPIStub.dir/objects.a
-/vortex/mingw-2022/usr/bin/i686-w64-mingw32-ar qc CMakeFiles/MAPIStub.dir/objects.a @CMakeFiles/MAPIStub.dir/objects1.rsp
-/vortex/mingw-2022/usr/bin/i686-w64-mingw32-g++ -shared -o libMAPIStub.dll -Wl,--out-implib,libMAPIStub.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/MAPIStub.dir/objects.a -Wl,--no-whole-archive @CMakeFiles/MAPIStub.dir/linklibs.rsp
